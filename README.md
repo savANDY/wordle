@@ -1,3 +1,7 @@
+# Wordle (RO)
+- Try a demo of this romanian version [here](https://wordle.savandy.com/)
+
+# Original forked readme:
 # Wordle Clone
 
 - Go play the real Wordle [here](https://www.powerlanguage.co.uk/wordle/)
