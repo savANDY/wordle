@@ -80,17 +80,17 @@ export const WinModal = ({
                         as="h3"
                         className="text-lg leading-6 font-medium text-gray-900"
                     >
-                      Ai castigat!
+                      Ai câștigat!
                     </Dialog.Title>
                     <div className="mt-2">
                       <MiniGrid guesses={guesses}/>
-                      <p className="text-sm text-gray-500">Felicitari.</p>
+                      <p className="text-sm text-gray-500">Felicitări.</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-1 mt-5 sm:mt-6">
-                  <div className="text-center">
+                  <div className="text-center pr-5">
                     <div className="text-xs"><b>URMĂTORUL CUVÂNT</b></div>
                     <div><Timer date={moment().endOf("day")}/></div>
                   </div>
