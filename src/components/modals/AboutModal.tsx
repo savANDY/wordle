@@ -57,24 +57,24 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    About
+                    Despre joc
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      This is an open source clone of the game Wordle -{' '}
+                      Acest joc este o clonă{' '}
                       <a
                         href="https://github.com/savANDY/wordle"
                         className="underline font-bold"
-                      >
-                        check out the code here
-                      </a>{' '}
-                      and{' '}
+                    >
+                      open source
+                    </a>{' '} a jocului original Wordle pe care{' '}
                       <a
-                        href="https://www.powerlanguage.co.uk/wordle/"
-                        className="underline font-bold"
+                          href="https://www.powerlanguage.co.uk/wordle/"
+                          className="underline font-bold"
                       >
-                        play the original here
+                        îl puteți juca aici
                       </a>
+                      .
                     </p>
                   </div>
                 </div>
