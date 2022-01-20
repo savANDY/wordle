@@ -62,9 +62,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Ghiciți CUVÂNTUL în 6 încercări. După fiecare ghicire, culorile
-                      literelor se vor schimba pentru a arăta cât de aproape a fost estimarea
-                      la cuvânt.
+                      Ghiciți CUVÂNTUL în 6 încercări. După fiecare ghicire,
+                      culorile literelor se vor schimba pentru a arăta cât de
+                      aproape a fost estimarea la cuvânt.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">

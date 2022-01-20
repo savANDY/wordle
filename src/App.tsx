@@ -40,7 +40,7 @@ function App() {
     if (isGameWon) {
       setIsWinModalOpen(true)
     } else {
-      setIsInfoModalOpen(true);
+      setIsInfoModalOpen(true)
     }
   }, [isGameWon])
 

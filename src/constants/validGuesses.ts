@@ -11453,5 +11453,5 @@ export const VALIDGUESSES = [
   'zvarl',
   'zvarr',
   'zvelt',
-  'zvoni'
+  'zvoni',
 ]

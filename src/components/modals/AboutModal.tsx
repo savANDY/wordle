@@ -65,12 +65,13 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                       <a
                         href="https://github.com/savANDY/wordle"
                         className="underline font-bold"
-                    >
-                      open source
-                    </a>{' '} a jocului original Wordle pe care{' '}
+                      >
+                        open source
+                      </a>{' '}
+                      a jocului original Wordle pe care{' '}
                       <a
-                          href="https://www.powerlanguage.co.uk/wordle/"
-                          className="underline font-bold"
+                        href="https://www.powerlanguage.co.uk/wordle/"
+                        className="underline font-bold"
                       >
                         îl puteți juca aici
                       </a>
