@@ -61,7 +61,12 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Acest joc este o clonă{' '}
+                      Ghiciți cuvântul ascuns în 6 încercări. Un nou puzzle în
+                      fiecare zi. Jocul Wordle RO este creat specific pentru
+                      vorbitori de limba română. Cuvintele au 5 litere.
+
+                      Acest
+                      joc este o clonă{' '}
                       <a
                         href="https://github.com/savANDY/wordle"
                         className="underline font-bold"
