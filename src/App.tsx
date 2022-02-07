@@ -65,9 +65,10 @@ function App() {
     const gameWasWon = loaded.guesses.includes(solution)
     if (gameWasWon) {
       setIsGameWon(true)
-    }
-    if (loaded.guesses.length === MAX_CHALLENGES && !gameWasWon) {
+    } else if (loaded.guesses.length === MAX_CHALLENGES) {
       setIsGameLost(true)
+    } else {
+      setIsInfoModalOpen(true)
     }
     return loaded.guesses
   })

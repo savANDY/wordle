@@ -9,8 +9,8 @@ import {
   STATISTICS_TITLE,
   GUESS_DISTRIBUTION_TEXT,
   NEW_WORD_TEXT,
-  SHARE_TEXT,
 } from '../../constants/strings'
+import { ShareIcon } from '@heroicons/react/solid'
 
 type Props = {
   isOpen: boolean
@@ -65,13 +65,13 @@ export const StatsModal = ({
           </div>
           <button
             type="button"
-            className="mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
+            className="inline-flex justify-center mt-2 w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-indigo-600 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
             onClick={() => {
               shareStatus(guesses, isGameLost)
               handleShare()
             }}
           >
-            {SHARE_TEXT}
+            <ShareIcon className="h-6 w-6 text-white-600" aria-hidden="true" />
           </button>
         </div>
       )}
