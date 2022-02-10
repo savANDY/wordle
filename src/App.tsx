@@ -215,15 +215,19 @@ function App() {
           {GAME_TITLE}
         </h1>
         {isHardMode ? (
-          <AcademicCapIcon
-            className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
-            onClick={() => handleHardMode(!isHardMode)}
-          />
+          <div title="Mod joc: GREU">
+            <AcademicCapIcon
+              className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
+              onClick={() => handleHardMode(!isHardMode)}
+            />
+          </div>
         ) : (
-          <CakeIcon
-            className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
-            onClick={() => handleHardMode(!isHardMode)}
-          />
+          <div title="Mod joc: UȘOR">
+            <CakeIcon
+              className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white"
+              onClick={() => handleHardMode(!isHardMode)}
+            />
+          </div>
         )}
         {isDarkMode ? (
           <SunIcon

@@ -10,7 +10,8 @@ export const shareStatus = (
   navigator.clipboard.writeText(
     `${GAME_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6${
       isHardMode ? '*' : ''
-    }\n\n` + generateEmojiGrid(guesses) +
+    }\n\n` +
+      generateEmojiGrid(guesses) +
       '\n\nhttps://wordle.savandy.com'
   )
 }
