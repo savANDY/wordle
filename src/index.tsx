@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import { AlertProvider } from './context/AlertContext'
 import ReactGA from 'react-ga4'
 
 ReactGA.initialize('G-VEWK38S8VW')
@@ -10,7 +11,9 @@ ReactGA.send('pageview')
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AlertProvider>
+      <App />
+    </AlertProvider>
   </React.StrictMode>,
   document.getElementById('root')
 )
