@@ -66,6 +66,24 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray--500 dark:text-gray-300">
         <b>Un cuvânt nou va fi disponibil în fiecare zi!</b>
       </p>
+      <hr className="mt-4 mb-4" />
+
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+        Acest joc este o clonă{' '}
+        <a
+            href="https://github.com/savANDY/wordle"
+            className="underline font-bold"
+        >
+          open source
+        </a>{' '}
+        a jocului original Wordle pe care îl puteți juca{' '}
+        <a
+            href="https://www.nytimes.com/games/wordle/index.html"
+            className="underline font-bold"
+        >
+          aici
+        </a>.
+      </p>
     </BaseModal>
   )
 }
